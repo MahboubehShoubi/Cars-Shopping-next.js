@@ -1,0 +1,42 @@
+.container{
+    width: fit-content;
+    padding: 10px;
+    box-shadow: 0 8px 24px gray;
+}
+
+.image{
+    width: 300px;
+    border-radius: 5px;
+}
+
+.title{
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.details{
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.price {
+    background-color: var(--blue);
+    padding: 3px 5px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    align-items: flex-start;
+}
+
+.location {
+    display: flex;
+    align-items: flex-end;
+}
+
