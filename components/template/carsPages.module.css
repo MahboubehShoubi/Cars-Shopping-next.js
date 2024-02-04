@@ -1,7 +1,14 @@
 .container{
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carsList{
+    width: 1200px;
+    display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    max-width: 1200px;
-    row-gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
 }

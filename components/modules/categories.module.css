@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    box-shadow: 0 8px 24px #c0c0c0;
+    padding: 5px;
+    width: fit-content;
+    column-gap: 10px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.categoriesBox{
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue);
+    border-radius: 5px;
+    padding: 8px 0;
+}
+
+.categoriesBox p{
+    font-weight: 700;
+}

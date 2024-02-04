@@ -3,9 +3,10 @@ function Hatchback() {
     <svg
       x="0px"
       y="0px"
-      width="30px"
-      height="30px"
+      width="40px"
+      height="40px"
       viewBox="0 0 485.838 485.839"
+      fill="white"
     >
       <g>
         <g>

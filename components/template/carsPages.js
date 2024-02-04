@@ -4,9 +4,12 @@ import Card from "../modules/card";
 const CarsPages = ({ data }) => {
     return (
         <div className={styles.container}>
-            {
-                data.map(car => <Card key={car.id} {...car}/>)
-            }
+            <div className={styles.carsList}>
+                {
+                    data.map(car => <Card key={car.id} {...car}/>)
+                }
+            </div>
+
         </div>
     );
 };

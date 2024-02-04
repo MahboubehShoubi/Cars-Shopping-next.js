@@ -1,6 +1,6 @@
 function Suv() {
   return (
-    <svg x="0px" y="0px" width="30px" height="30px" viewBox="0 0 99.488 99.488">
+    <svg x="0px" y="0px" width="40px" height="40px" viewBox="0 0 99.488 99.488" fill="white">
       <g>
         <g>
           <path

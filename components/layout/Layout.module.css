@@ -1,9 +1,10 @@
 .header{
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     background-color: #222222;
+    padding: 0 150px;
 }
 
 .header h1{
