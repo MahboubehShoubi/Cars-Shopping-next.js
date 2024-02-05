@@ -22,3 +22,23 @@
 .categoriesBox p{
     font-weight: 700;
 }
+
+@media screen and (max-width: 600px){
+    .container{
+        flex-wrap: wrap;
+        width: 320px;
+        gap: 10px;
+        padding: 5px 10px;
+    }
+
+    .categoriesBox{
+        width: 145px;
+        padding:6px 0 0;
+    }
+
+    .categoriesBox p{
+        font-weight:600;
+        font-size: 13px;
+    }
+
+}

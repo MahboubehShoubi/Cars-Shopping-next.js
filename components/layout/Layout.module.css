@@ -7,8 +7,21 @@
     padding: 0 150px;
 }
 
-.header h1{
-    color: var(--blue);
+.headerRight{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.images{
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.header h3{
+    color: white;
+    border-top: 2px solid var(--blue);
+    padding-top: 10px;
 }
 .logo{
     width: 250px;
@@ -27,3 +40,36 @@
     text-align: center;
     width: 100%;
 }
+
+@media screen and (max-width: 600px){
+    .header{
+        justify-content: space-between;
+        padding:10px 30px;
+    }
+
+    .images{
+        width: 100px;
+    }
+
+    .header h3{
+        font-size: 13px;
+    }
+    .logo{
+        width: 120px;
+    }
+
+    .container{
+        padding: 50px;
+    }
+
+    .footer{
+        padding: 10px 50px;
+        font-size: 15px;
+    }
+
+    .footer span{
+        font-size: 10px;
+    }
+
+}
+

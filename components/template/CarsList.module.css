@@ -12,6 +12,7 @@
     background-color: var(--blue);
     padding: 5px 10px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .back p{
@@ -23,4 +24,24 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     gap: 30px;
+}
+
+@media screen and (max-width: 600px){
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 30px;
+        column-gap: 0;
+    }
+
+    .back{
+        align-self: flex-end;
+    }
+
+    .cardsList{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }

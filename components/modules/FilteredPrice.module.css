@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    box-shadow:  0 8px 24px #c2b6b6;
+    column-gap: 10px;
+    margin-bottom: 30px;
+    width: 520px;
+    padding: 5px;
+}
+
+.priceBox{
+    display: flex;
+    flex-direction: column;
+    width: 410px;
+    row-gap: 8px;
+}
+
+.priceBox input{
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.container button{
+    background-color: var(--blue);
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 600px){
+    .container{
+        width: 320px;
+    }
+
+    .priceBox{
+        width: 220px;
+        row-gap: 5px;
+    }
+
+    .priceBox input{
+        font-size: 15px;
+    }
+
+    .container button{
+        width: 80px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 15px;
+    }
+}

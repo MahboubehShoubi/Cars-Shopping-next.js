@@ -1,13 +1,9 @@
 import { useRouter } from "next/router";
-import styles from "./categoryPage.module.css";
-import carsData from "../../data/carsData";
+import styles from "./CarsList.module.css";
 import Card from "../modules/card";
 import Back from "../icons/Back";
 
-const CategoryPage = (props) => {
-    const {category} = props;
-
-    const carsList = carsData.filter(car => car.category === category);
+const CarsList = ({data}) => {
 
     const router = useRouter();
     const backHandler = () => {
@@ -23,7 +19,7 @@ const CategoryPage = (props) => {
 
             <div className={styles.cardsList}>
                 {
-                    carsList.map(car => <Card key={car.id} {...car} />)
+                    data.map(car => <Card key={car.id} {...car} />)
                 }
             </div>
 
@@ -31,4 +27,4 @@ const CategoryPage = (props) => {
     );
 };
 
-export default CategoryPage;
+export default CarsList;

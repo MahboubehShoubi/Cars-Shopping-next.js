@@ -1,4 +1,4 @@
-import styles from "./carsPages.module.css";
+import styles from "./CarsPages.module.css";
 import Card from "../modules/card";
 
 const CarsPages = ({ data }) => {

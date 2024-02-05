@@ -22,13 +22,13 @@ const Categories = () => {
             </Link>
             <Link href={`/category/suv`}>
                 <div className={styles.categoriesBox}>
-                    <p>Suv</p>
+                    <p>SUV Cars</p>
                     <Suv />
                 </div>
             </Link>
             <Link href={`/category/sport`}>
                 <div className={styles.categoriesBox}>
-                    <p>Sport</p>
+                    <p>Sport Cars</p>
                     <Sport />
                 </div>
             </Link>

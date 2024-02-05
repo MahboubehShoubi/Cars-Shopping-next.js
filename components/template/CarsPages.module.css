@@ -12,3 +12,11 @@
     align-items: center;
     gap: 30px;
 }
+
+@media screen and (max-width: 600px){
+    .carsList{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
